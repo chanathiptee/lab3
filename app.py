@@ -17,7 +17,7 @@ with open('dtm_trained_model.pkl', 'rb') as f :
 
 st.title("K-Means Clustering Visualizer by Chanathip Sirisrisermwong")
 
-st.set_page_config(page_title= "K-Means Clutering", layout= "centered")
+st.set_page_config(page_title="K-Means Clustering", layout="centered")
 
 X, _ = make_blobs(n_samples=300, centers=load_model.n_clusters, cluster_std=0.60, random_state=0)
 
