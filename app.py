@@ -2,7 +2,7 @@
 """
 Created on Sun Apr 20 15:06:42 2025
 
-@author: chanathiptee
+@author: yoyop
 """
 
 # app.py
@@ -20,11 +20,11 @@ with open('kmeans_model.pkl', 'rb') as f:
 st.set_page_config(page_title="K-Means Clustering App", layout="centered")
 
 # Title
-st.title("K-Means Clustering Visualizer by Chanathip Sirisrisermwong")
+st.title("K-Means Clustering Visualizer by Kittiphot Polaha")
 
 # Display section header
-st.subheader("📊 Example Data for Visualization")
-st.markdown("This demo uses example 2D data to illustrate clustering results.")
+st.subheader("Example Data for Visualization")
+st.markdown("This demo uses example (2D) data to illustrate clustering results.")
 
 # Set number of clusters to 4 by default
 num_clusters = 4
@@ -43,7 +43,8 @@ y_kmeans = loaded_model.predict(X)
 # Plot clusters
 plt.figure(figsize=(8, 6))
 plt.scatter(X[:, 0], X[:, 1], c=y_kmeans, s=50, cmap='viridis')
-plt.title(f'K-Means Clustering (k={num_clusters})')
+plt.title(f'K-Means Clustering')
+
 
 # Display cluster centers with red circles
 centers = loaded_model.cluster_centers_
