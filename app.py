@@ -20,7 +20,7 @@ with open('kmeans_model.pkl', 'rb') as f:
 st.set_page_config(page_title="K-Means Clustering App", layout="centered")
 
 # Title
-st.title("K-Means Clustering Visualizer by Kittiphot Polaha")
+st.title("K-Means Clustering Visualizer by Chanathip Sirisrisermwong")
 
 # Display section header
 st.subheader("Example Data for Visualization")
