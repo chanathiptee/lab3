@@ -2,7 +2,7 @@
 """
 Created on Sun Apr 20 15:06:42 2025
 
-@author: yoyop
+@author: chanathiptee
 """
 
 # app.py
@@ -20,7 +20,7 @@ with open('kmeans_model.pkl', 'rb') as f:
 st.set_page_config(page_title="K-Means Clustering App", layout="centered")
 
 # Title
-st.title("🔍 k-Means Clustering Visualizer")
+st.title("K-Means Clustering Visualizer by Chanathip Sirisrisermwong")
 
 # Display section header
 st.subheader("📊 Example Data for Visualization")
